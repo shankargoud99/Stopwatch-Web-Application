@@ -1,0 +1,38 @@
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#start-pause-btn {
+    background: white linear-gradient(45deg, #4caf50, #81c784); 
+    color:white;
+}
+
+#start-pause-btn:hover {
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.5);
+}
+
+#reset-btn {
+    background: linear-gradient(45deg, #f44336, #e57373); 
+    color:white;
+}
+
+#reset-btn:hover {
+    box-shadow: 0 4px 10px rgba(244, 67, 54, 0.5);
+}
+
+/* Lap Button */
+#lap-btn {
+    background: linear-gradient(45deg, #2196f3, #64b5f6); 
+    color: white;
+}
+
+#lap-btn:hover {
+    box-shadow: 0 4px 10px rgba(33, 150, 243, 0.5);
+}
